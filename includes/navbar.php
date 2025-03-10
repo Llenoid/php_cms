@@ -8,18 +8,16 @@
       data-mdb-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup"
       aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+      aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="/cms/">Home</a>
-        <a class="nav-link" href="/cms/dashboard/">Dashboard</a>
-        <a class="nav-link" href="/cms/logout/">Logout</a>
+        <a class="nav-link" href="dashboard.php">Dashboard</a>
+        <a class="nav-link" href="logout.php">Logout</a>
       </div>
     </div>
   </div>
 </nav>
-
-
+<?php get_message(); ?>
